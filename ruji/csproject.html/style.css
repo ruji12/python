@@ -14,7 +14,7 @@
 }
 .box2 {
     width: 40vw;
-    height: 800px;
+    height: 1100px;
     background-color:burlywood;
     position: relative;
     z-index: 2;
@@ -55,9 +55,11 @@ img{
     
 }
 .price{
+    position: relative;
+    bottom: 27px;
     
    text-align: right;
-   width: 60%;
+   width: 75%;
    
 
 
@@ -70,6 +72,7 @@ img{
     margin-bottom: 5px;
     font-size: 18px;
     font-family: sans-serif;
+    width: 100%; 
   }
   hr.bottomline{
     margin: 50px;
