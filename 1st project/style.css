@@ -1,0 +1,311 @@
+header {
+    height: 90px;
+    background-color: black;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+    margin-left: 250px;
+    list-style: none;
+    font-family: 'Carter One', cursive;
+}
+
+nav .port {
+    font-size: 30px;
+    display: flex;
+    font-family: 'Carter One', cursive;
+    color: red;
+    font-style:bold ;
+    
+
+
+
+}
+.port span{
+    color:paleturquoise ;
+}
+.port span:hover{
+    color: blueviolet;
+}
+
+.port:hover {
+    color: skyblue;
+   font-size:34px ;
+}
+
+li {
+    padding: 2px 50px;
+    font-size: 20px;
+}
+
+li:hover {
+    color: brown;
+    font-size:24px ;
+    font-weight:bold ;
+}
+
+.btn{
+    background-color:#f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight:bold ;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin: 1px 1200px;
+    position: relative;
+    bottom: 30px;
+}
+ .btn:hover{
+   
+   color:blueviolet;
+   font-size:20px ;
+   font-weight: bold;
+
+}
+.box1 img{
+    width: 100%;
+   color: black;
+   
+  
+
+}
+.box2{
+    /* background-color:red;
+    width: 50%;
+    position: relative;
+    z-index: 1;
+    */
+    background-clip: black; 
+    color: white;
+    width: 50%;
+    position: relative;
+   bottom: 720px;
+    text-align: center;
+    margin: 2px 3px;
+    padding: 3px 20px;
+    
+}
+h4{
+    letter-spacing: 1px;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: pink;
+}
+h2{
+    letter-spacing: 2px;
+    font-family: 'Lobster', cursive;
+    font-weight: bolder;
+    font-size: 50px;
+    color: plum
+}
+h3{
+    font-size: 30px;
+    color: grey;
+    font-family: 'Fredoka One', cursive;
+}
+.input1{
+    
+    background-color:white;;
+    color: grey;
+    text-decoration: none;
+    border: 2px solid #f9004d;
+   
+    font-weight:bold ;
+    padding: 11px 99px;
+    border-radius: 30px;
+    
+    position: relative;
+}
+.input2{
+    background-color:#f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid gray;
+    font-weight:bold ;
+    padding: 9px 10px;
+    border-radius: 30px;
+    
+    position: relative;
+    right: 102px;
+   }
+
+.box3{
+    width: 100%;
+    height: 105vh;
+    background-color: black;
+    position: relative;
+    bottom: 311px;
+    
+}
+.box4{
+    color: aqua;
+    background-color: black;
+    position: relative;
+    width: 50%;
+    height: 90vh;
+    left:600px;
+    bottom: 390px
+   
+}
+h1{
+    color:white;
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    
+   }
+   .header{
+    color: white;
+    font-size: 35px;
+    font-family: 'Mynerve', cursive;
+}
+span{
+    color: #f9004d;
+    font-size: 35px;
+    font-family: 'Mynerve', cursive;
+}
+p{
+    color:white ;
+    left:1px;
+    line-height: 35px;
+    font-size: 20px;
+
+}
+.click{
+    color:white ;
+    background-color: #f9004d;
+    border: 2px solid white;
+    position: relative;
+    left: 600px;
+    bottom: 550px;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.click:hover{
+    color: purple;
+    font-size: 20px;
+    font-style: italic;
+    
+}
+.f-container{
+    display: flex;
+    height: 110vh;
+    background-color: black;
+    width:100%;
+    position: relative;
+    bottom:500px ;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+
+}
+.f-container h3{
+    margin: auto;
+    position: relative;
+    bottom: 290px;
+    left: 510px;
+    font-size:30px ;
+}
+.f-item{
+    width: 300px;
+    height: 335px;
+   background-color: #191919;
+   margin: 20px;
+   padding: 19px;
+   position: relative;
+ 
+   top: 20px;
+   left: 12px;
+   line-height:2px ;
+
+
+}
+
+.f-item h2{
+    font-size: 20px;
+}
+.f-item p{
+    color:white;
+    line-height: 30px;
+}
+.button{
+    background-color:#f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight:bold ;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin: 1px 100px;
+    position: relative;
+    top: 70px;
+    font-family: 'Mynerve', cursive;
+    border: 2px solid white;
+
+}
+.button:hover{
+    background: transparent;
+}
+.last{
+    background-color:#191919;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    bottom: 530px;
+
+}
+.last h3{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.dot{
+    background-color:#f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight:bold ;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin: 1px 100px;
+    position: relative;
+    top: 50px;
+    font-family: 'Mynerve', cursive;
+    border: 2px solid white;
+    left: 500px;
+
+}
+.dot:hover{
+    background: transparent;
+    
+
+    }
+.l{
+    background-color: black;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    bottom: 572px;
+}
+.l h1{
+    color: white;
+    text-align: center;
+    font-family: 'Mynerve', cursive;
+    font-size: 60px;
+    
+
+    }
+.l p{
+
+
+    color: palevioletred;
+    font-family: 'Mynerve', cursive;
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
