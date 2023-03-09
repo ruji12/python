@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@200;300&family=Oswald&family=Playfair+Display&display=swap');
+
+
+
+
+ .box1 img{
+    width: 100vw;
+    height: 100vw;
+
+    z-index: 1;
+    position: fixed;
+
+
+}
+.box2 {
+    width: 40vw;
+    height: 1100px;
+    background-color:burlywood;
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    padding: 45px;
+    top: 100px;
+    max-width: 500px;
+}
+header{
+    font-family: Impact, serif;
+    text-align: center;
+}
+h5{
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+hr{
+    color:brown;
+    min-height: 3px;
+    background-color: brown;
+
+}
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img{
+    display: flex;
+    margin: auto;
+   color: burlywood ;
+}
+  .flavour.dessert{
+
+    text-align:left;
+    width: 25%;
+
+
+
+}
+.price{
+    position: relative;
+    bottom: 27px;
+
+   text-align: right;
+   width: 75%;
+
+
+
+}
+
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-family: sans-serif;
+    width: 100%; 
+  }
+  hr.bottomline{
+    margin: 50px;
+    width: 510px;
+    margin-left: 3px
+}
+
+a{
+    color:black;
+    margin:  50px 170px;
+}
+footer{
+    margin:20px 30px;
+}
+.last{
+    text-align: center;
+    padding-top: 1px;
+}
