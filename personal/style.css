@@ -1,4 +1,4 @@
-header {
+ /* header {
     height: 90px;
     background-color: black;
     color: white;
@@ -80,7 +80,7 @@ li:hover {
     position: relative;
     z-index: 1;
     */
-    background-clip: black; 
+    /* background-clip: black; 
     color: white;
     width: 50%;
     position: relative;
@@ -308,4 +308,22 @@ p{
     text-align: center;
     position: relative;
     top: 70px;
+}  */ */
+
+
+#post-form-container{
+    
+    max-width:300px;
+    padding: 10px;
+    border: 1px solid black;
+    display: none;
+
+}
+
+#post-form-container  input{
+    width:100% ;
+    margin: 5px 0 20px 0;
+    padding: 10px;
+    display: none;
+
 }

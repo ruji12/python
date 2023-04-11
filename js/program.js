@@ -64,7 +64,7 @@ console.log("Sum of"+n+"are"+sum);*/
 // }
 
 //for of loop
- 
+
 // for(a of "rujita"){
 //     console.log(a);
 // }
@@ -162,8 +162,8 @@ console.log("Sum of"+n+"are"+sum);*/
 
 
 //String set practise
-let str ="har\""
-console.log(str.length)
+// let str ="har\""
+// console.log(str.length)
 
 
 //prblm-2
@@ -256,4 +256,217 @@ console.log(str.length)
 // console.log(num);
 
 
-//
+//for each loop
+
+
+// let num =[1,3,4,5,6]
+
+// for(let i=0;i<num.length;i++){
+//     console.log(num[i*i]);
+// }
+
+// num.forEach((element)=>{
+//     console.log(element*element)
+// })
+
+// let name ="RujitaLage"
+// let arr = Array.from(name)
+// console.log(arr)
+
+
+// for...of
+
+// for(let i of num){
+//     console.log(i)
+// }
+
+
+// maps filter and reduce
+
+// let arr = [1,4,5,6]
+
+// let a = arr.map((value,index)=>{
+//     // console.log(value,index)
+//     return value + index;
+// })
+// console.log(a) 
+// maps is used to create a new array.
+
+
+
+// Array filter method
+
+// let arr = [23,56,30,10,40]
+
+//   let a=arr.filter((value)=>{
+//     return value<50
+// })
+// console.log(a)
+
+
+
+
+// Array reduce method
+// let arr =[1,3,5,7,9]
+// let a=arr.reduce((h1,h2)=>{
+//     return h1+h2
+// })
+// console.log(a)
+
+
+// chapter 5 practise set
+
+
+// prblm-1
+// let arr = [1, 2, 3, 5]
+// let a
+
+// prblm-2
+// do {
+//     a = prompt("Enter a number:")
+//     a = Number.parseInt(a)
+//     arr.push(a)
+//     // console.log(arr)
+
+
+
+// } while (a != 0)
+// console.log(arr)
+
+
+// prblm-3
+
+// let arr=[1,2,34,5,6,10,20]
+// let a = arr.filter((x)=>{
+//     return x%10 == 0
+// })
+// console.log(a)
+
+// prblm-4
+
+// let arr=[1,2,34,5,6,10,20]
+// let a = arr.map((x)=>{
+//     return x*x
+// })
+// console.log(a)
+
+
+// prblm-5
+
+// let arr = [1,2,3,4,5]
+// let a= arr.reduce((x1,x2)=>{
+//     return x1*x2
+
+// })
+// console.log(a)
+
+
+
+// console.time("forLoop")
+// for (let i = 0; i < 5; i++) {
+//     console.log(i)
+
+// }
+
+// console.timeEnd("forLoop")
+
+
+// alert("Enter the value of a:")
+// let a = prompt("Enter a here");
+// document.write(a)
+
+// alert("Enter the value of a!")
+// let a = prompt("Enter a here")
+// a = Number.parseInt(a)
+// alert("You entered a of type" +(typeof a))
+// let write = confirm("Do you want to write it to the page:");
+// if(write){
+//     document.write(a)
+// }
+// else{
+//     document.write("Please allow me to write")
+// }
+
+
+// practise set-6
+// let a = prompt("what's your age?")
+// const canDrive = (a)=>{
+// return a>=18?"you can drive":"you cannot drive"
+
+// }
+// runagain = true
+// while(runagain)
+
+// {
+//     let a = prompt("what's your age?")
+//     if(a<0){
+//         console.error("please enter a valid age")
+//         break;
+//     }
+//     if(canDrive(a)){
+//     alert("You can drive")
+// }
+// else{
+//     alert("You cannot drive")
+// }
+// runagain = confirm("You want to run again??")
+// // if(a<0){
+// //     console.error("you entered wrong")
+// // }
+
+// }
+
+
+
+// let num = prompt("Enter a number")
+// if (num<4){
+//     location.href="https://google.com"
+// }
+
+// let color = prompt("Enter the page background color")
+// document.body.style.background = color
+
+// console.log(document.body.firstChild)
+// console.log(document.body.lastChild)
+
+// const changeBgRed = () =>{
+//     document.body.firstElementChild.style.background = "blue"
+// }
+
+// let b = document.body
+// console.log("First child of b is:",b.firstChild)
+// console.log("First child of b is:",b.firstElementChild)
+// let parent = document.getElementById('parent');
+// let children = parent.children;
+// console.log(children);
+
+
+
+// 
+
+// var name ="Rujita Lage"
+// name.split()
+// console.log(name)
+
+// name.split(/\s+/)
+// console.log(name)
+
+
+
+// var fullnames = ["Rujita Lage","Nisha Lagge" ,"Rushali Lage"]
+//  var firstandlastnames = []
+
+// for(fullname of fullnames){
+//     var name = fullname.split(/\s+/)
+//     var firstandlastname ={
+//         firstname : name[0],
+//         lastname : name[1]
+
+
+//     }
+//     firstandlastnames.push(firstandlastname)
+// }
+// console.log(firstandlastnames)
+
+
+

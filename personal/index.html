@@ -24,9 +24,20 @@
 
             </ul>
 
-            <a href="#" class="btn">Subscribe</a>
+            <a href="#" class="btn" onclick="handlecreatepost()">Subscribe</a>
 
         </nav>
+
+        <div id="post-form-container">
+            <form >
+                <label ><b>Title</b></label>
+                <input  type="text"  placeholder="Enter title">
+                <label ><b>Description</b></label>
+                <input type="text"  placeholder="Enter description">
+                <label ><b>Place</b></label>
+                <input type="text"  placeholder="Your  post">
+            </form>
+        </div>
     </header>
     <div class="box1">
         <img src="https://i.pinimg.com/736x/d3/0a/bd/d30abd729d57f7593e532a7b7e61513a.jpg" alt="">
@@ -90,6 +101,13 @@
 
 
          </div>
+         <script src="https://unpkg.com/validator@latest/validator.min.js">
+            // function handlecreatepost(){
+            //     console.log("clicked on button")
+            // }
+            // // handlecreatepost()
+
+         </script>
 
 
 
